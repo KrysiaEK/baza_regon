@@ -5,10 +5,13 @@ name = "pypi"
 
 [packages]
 psycopg2-binary = "*"
-django = "*"
+Django = "*"
 django-environ = "*"
 
 [dev-packages]
+zeep = "*"
+beautifulsoup4 = "*"
+xmltodict = "*"
 
 [requires]
 python_version = "3.8"
