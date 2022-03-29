@@ -5,7 +5,6 @@ from baza_regon.apps.searcher.services.gus_connector import GUSConnector
 
 
 class GUSApiView(APIView):
-
     """View takes user input and use GUSConnector to find and return data"""
 
     def get(self, request, *args, **kwargs):

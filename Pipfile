@@ -8,11 +8,11 @@ psycopg2-binary = "*"
 Django = "*"
 django-environ = "*"
 djangorestframework="3.12.4"
-
-[dev-packages]
 zeep = "*"
 beautifulsoup4 = "*"
 xmltodict = "*"
+
+[dev-packages]
 
 [requires]
 python_version = "3.8"
