@@ -59,7 +59,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'baza_regon.urls'
+ROOT_URLCONF = 'baza_regon.config.urls'
 
 TEMPLATES = [
     {
@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'baza_regon.wsgi.application'
+WSGI_APPLICATION = 'baza_regon.config.wsgi.application'
 
 
 # Database

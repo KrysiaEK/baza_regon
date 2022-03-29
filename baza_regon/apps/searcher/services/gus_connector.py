@@ -8,7 +8,7 @@ import xmltodict
 from baza_regon.apps.searcher.exceptions import LengthError, WrongNumberError, WrongTypeError, NotNumberError, \
     WrongKeyError, NoConnectionError
 from baza_regon.apps.searcher.constants import GUSnumbers
-from baza_regon.settings import GUS_KEY, wsdl
+from baza_regon.config.settings import GUS_KEY, wsdl
 
 
 class GUSConnector:

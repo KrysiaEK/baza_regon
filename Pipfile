@@ -4,13 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-psycopg2-binary = "*"
-Django = "*"
-django-environ = "*"
-djangorestframework="3.12.4"
-zeep = "*"
-beautifulsoup4 = "*"
-xmltodict = "*"
+psycopg2-binary = "~=2.9"
+django = "~=4.0"
+django-environ = "~=0.8"
+djangorestframework = "~=3.13"
+zeep = "~=3.1"
+beautifulsoup4 = "~=4.10"
+xmltodict = "~=0.12"
 
 [dev-packages]
 
